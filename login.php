@@ -3,19 +3,9 @@
 
 <html>
     <head>
-        <meta charset="utf-8"> 
-        <link href="css/style.css"  rel="stylesheet">
-        <title>homepage</title>
-        <body style="background-color:black; color: white">
-            <h1 class="centered-text" onclick="location.href='/index.html'"><b><i>CGB's</i></b> WORKPLACE</h1>
-            <br>
-            <table class="navi">
-                <th onclick="location.href='/introduction.html'">소개</th>
-                <th>딥러닝</th>
-                <th>라즈베리파이</th>
-                <th>고양이</th>
-                <th onclick="location.href='/login/login.html'">로그인할래요?</th>
-            </table>
+    <?php 
+        include 'navi.php'; ?>
+
             
             <br><br><br>
 
@@ -26,7 +16,7 @@
                 <label class="label">PW</label>
                 <input name="PASSWORD" maxlength="20" type="PASSWORD"><br>
                 <table class="navi">
-                <th onclick="location.href='/register.html'">회원가입할래요?</th>
+                <th onclick="location.href='/register.php'">회원가입할래요?</th>
                 </table>
             </form>
 
